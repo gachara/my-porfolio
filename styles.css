@@ -1,12 +1,13 @@
 /*master styles */
 body{
     margin: 0px;
+    background-color: antiquewhite;
 }
 
 .container{
-    display: grid;
+    display: table;
     
-    grid-template-columns: 0fr 0fr 0fr;
+    grid-template-columns: 3fr 3fr 3fr;
     
 }
 
@@ -61,7 +62,7 @@ body{
 }
 
 .porfolio-img-background{
-    height: 350px;
+    height: 150px;
     width: 100%;
     background-size: cover;
     background-position: center;
